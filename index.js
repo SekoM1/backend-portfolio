@@ -8,6 +8,13 @@ app.use(cors());
 //     res.send("hello"); //outputing to browser
 // });
 
+// ROOT API
+app.get("/", function (req, res) {
+  
+  res.send(seko); //outputing to browser
+});
+
+
 let seko = [
   {
     title: "REACTION TIMER",
