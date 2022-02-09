@@ -4,9 +4,7 @@ var app = express();
 const cors = require("cors");
 app.use(cors());
 
-// app.get ('/', function(req, res){
-//     res.send("hello"); //outputing to browser
-// });
+
 
 let Testimonies = [
     {name:"Godwin Dzvapatsva",
