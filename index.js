@@ -100,7 +100,7 @@ let Testimonies = [
 app.get("/testimonials", function (req, res) {
     res.send(Testimonies)
 })
-const port = process.env.PORT || 2000;
+const port = process.env.PORT || 6700;
 app.listen(port, () => {
   console.log(`listening on port ${port}`);
 });
